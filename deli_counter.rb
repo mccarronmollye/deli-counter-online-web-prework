@@ -17,10 +17,9 @@ end
 def take_a_number(katz_deli)
   #katz_deli is now an array of ticket numbers...not names
   # the first time this method gets called, we want to shovel in the number 1, and so on
-  ticket_num = katz_deli.length + 1
-  katz_deli << ticket_num
+  katz_deli << $ticket_num
   # [1]
-  puts "Welcome, you are ticket number #{ticket_num}. You are number #{ticket_num} in line."
+  puts "Welcome, you are ticket number #{$ticket_num}. You are number #{katz_deli.length} in line."
 end
 
 def now_serving(katz_deli)
