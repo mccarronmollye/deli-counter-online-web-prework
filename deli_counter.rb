@@ -29,6 +29,6 @@ end
 
 katz_deli = []
 #other_deli = ["Logan", "Avi", "Spencer"]
-
+take_a_number(katz_deli)
 take_a_number(katz_deli, "Molly")
 take_a_number(katz_deli, "Bob")
