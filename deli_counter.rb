@@ -1,5 +1,7 @@
 require 'pry'
 
+$ticket_num = 1
+
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
