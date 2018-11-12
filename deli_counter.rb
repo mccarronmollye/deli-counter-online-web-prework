@@ -12,10 +12,13 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
-
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+def take_a_number(katz_deli)
+  #katz_deli is now an array of ticket numbers...not names
+  # the first time this method gets called, we want to shovel in the number 1, and so on
+  ticket_num = katz_deli.length + 1
+  katz_deli << ticket_num
+  # [1]
+  puts "Welcome, you are ticket number #{ticket_num}. You are number #{ticket_num} in line."
 end
 
 def now_serving(katz_deli)
@@ -29,6 +32,5 @@ end
 
 katz_deli = []
 #other_deli = ["Logan", "Avi", "Spencer"]
-take_a_number(katz_deli, "Molly")
-now_serving(katz_deli)
-take_a_number(katz_deli, "Bob")
+take_a_number(katz_deli)
+# Welcome, you are ticket number 1. You are number 1 in line.
