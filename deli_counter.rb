@@ -20,6 +20,8 @@ def take_a_number(katz_deli)
   katz_deli << $ticket_num
   # [1]
   puts "Welcome, you are ticket number #{$ticket_num}. You are number #{katz_deli.length} in line."
+  $ticket_num +=1
+  
 end
 
 def now_serving(katz_deli)
