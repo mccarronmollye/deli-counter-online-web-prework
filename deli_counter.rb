@@ -29,6 +29,6 @@ end
 
 katz_deli = []
 #other_deli = ["Logan", "Avi", "Spencer"]
-now_serving(katz_deli)
 take_a_number(katz_deli, "Molly")
+now_serving(katz_deli)
 take_a_number(katz_deli, "Bob")
