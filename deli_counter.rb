@@ -1,5 +1,4 @@
-katz_deli = [""]
-other_deli = ["Logan", "Avi", "Spencer"]
+
 
 def line(katz_deli)
   if katz_deli.empty?
@@ -26,3 +25,9 @@ def now_serving(katz_deli)
     katz_deli.shift
 end
 end
+
+katz_deli = [""]
+#other_deli = ["Logan", "Avi", "Spencer"]
+
+take_a_number(katz_deli, "Molly")
+
